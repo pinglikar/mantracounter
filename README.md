@@ -9,6 +9,8 @@ A lightweight, high-performance, and privacy-first web utility designed for trac
 
 * **Lightning Fast & Lightweight:** Built as a single, highly optimized static file (~16.8 KB), ensuring instantaneous load times even on low-bandwidth networks or mobile devices.
 
+* **OLED-Optimized Dark Mode:** Engineered with a pure black background (#000000) to completely turn off self-emitting pixels on OLED displays, designed to work in complete dark rooms or dark environments without the hassle or glare of a smartphone screen.
+
 * **100% Client-Side Persistence:** Utilizes browser `localStorage` to securely save your counts and session history locally on your device without transmitting data to any external server.
 
 * **Privacy-First:** No cookies, no third-party analytics, and no user tracking. Your practice remains entirely private.
