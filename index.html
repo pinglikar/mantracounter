@@ -388,6 +388,18 @@
             }
         }
 
+
+function handleFullscreenChange() {
+    // If there is currently NO element in fullscreen, it means the browser dropped out
+    if (!document.fullscreenElement && !document.webkitFullscreenElement) {
+        hasTriedFullscreen = false;
+    }
+}
+
+document.addEventListener('fullscreenchange', handleFullscreenChange);
+document.addEventListener('webkitfullscreenchange', handleFullscreenChange);
+
+
         function incrementCount() {
             requestFullscreen();
             count++;
